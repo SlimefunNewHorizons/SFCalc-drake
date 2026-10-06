@@ -3,9 +3,9 @@ package com.github.drakescraft_labs.sfcalc;
 
 import com.github.drakescraft_labs.labupdate.DrakesLabsReleaseUpdate;
 import io.github.seggan.errorreporter.ErrorReporter;
-import com.github.drakescraft_labs.slimefun4.api.recipes.RecipeType;
-import com.github.drakescraft_labs.slimefun4.implementation.Slimefun;
-import com.github.drakescraft_labs.slimefun4.libraries.dough.updater.BlobBuildUpdater;
+import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.updater.BlobBuildUpdater;
 import lombok.Getter;
 import org.bukkit.command.TabExecutor;
 import org.bukkit.event.Listener;
