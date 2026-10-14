@@ -1,7 +1,6 @@
 package com.github.drakescraft_labs.sfcalc;
 
 
-import com.github.drakescraft_labs.labupdate.DrakesLabsReleaseUpdate;
 import io.github.seggan.errorreporter.ErrorReporter;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
@@ -28,7 +27,6 @@ public class SFCalc extends JavaPlugin implements Listener {
 
     @Override
     public void onEnable() {
-        DrakesLabsReleaseUpdate.schedule(this, "SFCalc-drake");
 
         instance = this;
 
